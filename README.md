@@ -15,3 +15,5 @@ git reflog 查看命令历史
 git status 查看状态1
 =================================
 CHENGE -1
+CHENGE -2
+git diff HEAD -- readme.txt 命令可以查看工作区和版本库里面最新版本的区别
