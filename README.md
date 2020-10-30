@@ -5,4 +5,11 @@ git add .
 git add readme.txt
 git commit -m "注释"
 ============================
+git log 查看提交日志
+git log --pretty=oneline 以一行形式查看提交日志 
+git reset --hard HEAD^ 回退上一版本
+所以写成HEAD~100 回退几个版本
+git reset --hard 1094a 回退到指定版本
+git reflog 查看命令历史
+=================================
 
