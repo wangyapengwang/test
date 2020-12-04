@@ -24,3 +24,10 @@ git diff HEAD -- readme.txt 命令可以查看工作区和版本库里面最新�
 用命令git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
 git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
 命令git rm删掉，并且git commit 
+git checkout -b Feat_wyp 创建并切换分支
+git branch 查看分支
+git checkout master 切换分支到master
+git merge Feat_wyp 合并到主分支
+git pull 更新
+git push origin master 推送到主分支
+切换回自己分支进行继续开发
